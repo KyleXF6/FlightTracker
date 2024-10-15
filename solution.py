@@ -1,5 +1,4 @@
 import requests # import requests library for use
-
 api_result = requests.get('https://api.aviationstack.com/v1/flights?access_key=705dfe02cd2777e1723680be7d9ca4f1') # requests the data from the endpoint
 # to add other parameters you can add "&parameter=value&parameter2=value2" etc.
 
